@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
-               <img  class="h-10 w-auto" alt="Dzikwa Trust Logo Inverted" src="https://images.unsplash.com/photo-1689773132527-bcabdc88a395" />
+               <img  className="h-20 rounded-sm w-auto" alt="Dzikwa Trust Logo Inverted" src="https://i.imgur.com/8shKFyA.jpg" />
             </Link>
             <p className="text-gray-300 text-sm leading-relaxed">
               Empowering communities through education, wellbeing programs, and sustainable development initiatives.
