@@ -7,18 +7,18 @@ import { Button } from '@/components/ui/button';
 import ReactPlayer from 'react-player/lazy';
 
 const galleryItems = [
-  { id: 1, type: 'image', src: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=2070&auto=format&fit=crop", alt: "Children in a classroom raising hands", category: "Education" },
-  { id: 2, type: 'image', src: "https://images.unsplash.com/photo-1599059813005-7282b954c33e?q=80&w=2070&auto=format&fit=crop", alt: "Volunteers planting trees in a field", category: "Environment" },
-  { id: 3, type: 'video', src: "https://www.youtube.com/watch?v=LXb3EKWsInQ", alt: "A short documentary about community empowerment", category: "Empowerment", thumbnail: "https://img.youtube.com/vi/LXb3EKWsInQ/hqdefault.jpg" },
-  { id: 4, type: 'image', src: "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop", alt: "A group of women participating in a workshop", category: "Empowerment" },
-  { id: 5, type: 'image', src: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop", alt: "Teenagers playing soccer on a dusty field", category: "Sports" },
-  { id: 6, type: 'image', src: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1932&auto=format&fit=crop", alt: "A health worker checking a child's temperature", category: "Wellbeing" },
-  { id: 7, type: 'video', src: "https://vimeo.com/58357343", alt: "Highlights from the annual sports gala", category: "Sports", thumbnail: "https://i.vimeocdn.com/video/199250269_640.jpg" },
-  { id: 8, type: 'image', src: "https://images.unsplash.com/photo-1531346910697-6c3e980f74a7?q=80&w=2070&auto=format&fit=crop", alt: "Students working on laptops in a computer lab", category: "Education" },
-  { id: 9, type: 'image', src: "https://images.unsplash.com/photo-1524591325350-b08a54a06739?q=80&w=1954&auto=format&fit=crop", alt: "A woman displaying handcrafted goods", category: "Empowerment" },
-  { id: 10, type: 'image', src: "https://images.unsplash.com/photo-1516253593875-bd7ba04221a3?q=80&w=2070&auto=format&fit=crop", alt: "A community garden full of fresh vegetables", category: "Environment" },
-  { id: 11, type: 'image', src: "https://images.unsplash.com/photo-1618494957973-565d6f347962?q=80&w=1974&auto=format&fit=crop", alt: "Young girls in a sisterhood circle", category: "Empowerment" },
-  { id: 12, type: 'image', src: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=2070&auto=format&fit=crop", alt: "A performing arts group in colorful costumes", category: "Arts & Culture" },
+  { id: 1, type: 'image', src: "https://i.imgur.com/G7uQu7m.jpg", alt: "Children in a classroom raising hands", category: "Education" },
+  { id: 2, type: 'image', src: "https://i.imgur.com/g0StyLZ.jpg", alt: "Volunteers planting trees in a field", category: "Environment" },
+  { id: 3, type: 'video', src: "https://www.youtube.com/embed/RVpmyRb7tuY", alt: "A short documentary about community empowerment", category: "Empowerment", thumbnail: "https://img.youtube.com/vi/RVpmyRb7tuY/hqdefault.jpg" },
+  { id: 4, type: 'image', src: "https://i.imgur.com/1firRzk.jpg", alt: "A group of women participating in a workshop", category: "Empowerment" },
+  { id: 5, type: 'image', src: "https://i.imgur.com/Nsf4SvB.jpg", alt: "Teenagers playing soccer on a dusty field", category: "Sports" },
+  { id: 6, type: 'image', src: "https://i.imgur.com/rPhesSv.jpg", alt: "A health worker checking a child's temperature", category: "Wellbeing" },
+  { id: 7, type: 'video', src: "https://www.youtube.com/embed/ey5ZaDH5uU8", alt: "Highlights from the annual sports gala", category: "Sports", thumbnail: "https://img.youtube.com/vi/ey5ZaDH5uU8/hqdefault.jpg" },
+  { id: 8, type: 'image', src: "https://i.imgur.com/qbLKf3y.jpg", alt: "Students working on laptops in a computer lab", category: "Education" },
+  { id: 9, type: 'image', src: "https://i.imgur.com/8b0rPJ0.jpg", alt: "A woman displaying handcrafted goods", category: "Empowerment" },
+  { id: 10, type: 'image', src: "https://i.imgur.com/1firRzk.jpg", alt: "A community garden full of fresh vegetables", category: "Environment" },
+  { id: 11, type: 'image', src: "https://i.imgur.com/9sxXFJN.jpg", alt: "Young girls in a sisterhood circle", category: "Empowerment" },
+  { id: 12, type: 'video', src: "https://www.youtube.com/embed/hMgDviJK4gc", alt: "A performing arts group in colorful costumes", category: "Arts & Culture", thumbnail: "https://img.youtube.com/vi/hMgDviJK4gc/hqdefault.jpg"},
 ];
 
 const categories = ["All", "Education", "Environment", "Empowerment", "Sports", "Wellbeing", "Arts & Culture"];

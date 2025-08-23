@@ -10,11 +10,11 @@ export const successStories = [
   },
   {
     id: 2,
-    slug: "james-chikwanha",
-    name: "Unknown",
-    story: "The ICT training program changed my life. I now run my own computer repair business and employ three other young people.",
-    fullStory: "I was always fascinated by computers, but access to them was limited. The Dzikwa Trust ICT center opened up a new world for me. I enrolled in their basic ICT and ICDL training. The instructors were patient and knowledgeable, and I quickly learned hardware and software troubleshooting. After completing the course, Dzikwa Trust's entrepreneurship program helped me develop a business plan and secure a small startup loan. I started a small computer repair shop from my home. Within two years, my business grew, and I moved to a proper shop in town. I have now employed three other youths from my community, passing on the skills I learned. The ICT program didn't just give me a job; it gave me a career and the ability to create opportunities for others.",
-    image: "https://i.imgur.com/9sxXFJN.jpg",
+    slug: "tafadzwa-mandaba",
+    name: "Tafadzwa Mandaba",
+    story: "From the streets of Dzivaresekwa to Becoming a Doctor",
+    fullStory: "When I reflect on how far I’ve come in my medical journey, one name stands out, DZIKWA TRUST. This organisation has been more than just a sponsor, it has been a life-changing foundation that helped shape not only my education but also my identity, purpose, and confidence. My dream of becoming a doctor began when I was in Form 3. I had a deep desire to serve, heal, and make a difference  but my reality told a different story. I faced serious financial challenges, to the point that I almost dropped out of school. Despite the hardship, I stayed determined and worked hard, eventually passing my exams with flying colours. But then came the  question: How would I afford university? That’s when Dzikwa Trust came into my life. The organisation took me in and began sponsoring my education, covering everything from fees to welfare. Because of this support, I am now preparing to enter Part 5 of my Bachelor of Medicine and Bachelor of Surgery (MBChB) at the University of Zimbabwe. Without Dzikwa, my dream would have remained just that  a dream. But the impact of Dzikwa goes beyond academics. Through the trust, I was connected with other driven, ambitious students who inspired me to keep pushing. I found a community that believed in me and constantly encouraged me. I also got the opportunity to give back by tutoring younger learners. This responsibility helped build my leadership skills and boosted my confidence. Today, I confidently say that a female doctor is rising from the streets of Dzivaresekwa, ready to positively impact the world because Dzikwa believed in me when the odds were against me.",
+    image: "https://i.imgur.com/WzlnDgt.jpg",
     videoUrl: ""
   },
   {
