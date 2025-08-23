@@ -7,18 +7,25 @@ import { Button } from '@/components/ui/button';
 import ReactPlayer from 'react-player/lazy';
 
 const galleryItems = [
-  { id: 1, type: 'image', src: "https://i.imgur.com/G7uQu7m.jpg", alt: "Children in a classroom raising hands", category: "Education" },
+  { id: 1, type: 'video', src: "https://www.youtube.com/embed/QSw1JgELG6A", alt: "Children in a classroom raising hands", category: "Education", thumbnail: "https://img.youtube.com/vi/QSw1JgELG6A/hqdefault.jpg" },
   { id: 2, type: 'image', src: "https://i.imgur.com/g0StyLZ.jpg", alt: "Volunteers planting trees in a field", category: "Environment" },
   { id: 3, type: 'video', src: "https://www.youtube.com/embed/RVpmyRb7tuY", alt: "A short documentary about community empowerment", category: "Empowerment", thumbnail: "https://img.youtube.com/vi/RVpmyRb7tuY/hqdefault.jpg" },
   { id: 4, type: 'image', src: "https://i.imgur.com/1firRzk.jpg", alt: "A group of women participating in a workshop", category: "Empowerment" },
   { id: 5, type: 'image', src: "https://i.imgur.com/Nsf4SvB.jpg", alt: "Teenagers playing soccer on a dusty field", category: "Sports" },
-  { id: 6, type: 'image', src: "https://i.imgur.com/rPhesSv.jpg", alt: "A health worker checking a child's temperature", category: "Wellbeing" },
-  { id: 7, type: 'video', src: "https://www.youtube.com/embed/ey5ZaDH5uU8", alt: "Highlights from the annual sports gala", category: "Sports", thumbnail: "https://img.youtube.com/vi/ey5ZaDH5uU8/hqdefault.jpg" },
-  { id: 8, type: 'image', src: "https://i.imgur.com/qbLKf3y.jpg", alt: "Students working on laptops in a computer lab", category: "Education" },
-  { id: 9, type: 'image', src: "https://i.imgur.com/8b0rPJ0.jpg", alt: "A woman displaying handcrafted goods", category: "Empowerment" },
-  { id: 10, type: 'image', src: "https://i.imgur.com/1firRzk.jpg", alt: "A community garden full of fresh vegetables", category: "Environment" },
-  { id: 11, type: 'image', src: "https://i.imgur.com/9sxXFJN.jpg", alt: "Young girls in a sisterhood circle", category: "Empowerment" },
-  { id: 12, type: 'video', src: "https://www.youtube.com/embed/hMgDviJK4gc", alt: "A performing arts group in colorful costumes", category: "Arts & Culture", thumbnail: "https://img.youtube.com/vi/hMgDviJK4gc/hqdefault.jpg"},
+  { id: 6, type: 'video', src: "https://www.youtube.com/embed/Fb8hzbC2bpI", alt: "This Is Me (The Greatest Showman) | Cover by The Dzikwa Trust Choir", category: "Arts & Culture", thumbnail: "https://img.youtube.com/vi/Fb8hzbC2bpI/hqdefault.jpg" },
+  { id: 7, type: 'image', src: "https://i.imgur.com/rPhesSv.jpg", alt: "A health worker checking a child's temperature", category: "Wellbeing" },
+  { id: 8, type: 'video', src: "https://www.youtube.com/embed/ey5ZaDH5uU8", alt: "Highlights from the annual sports gala", category: "Arts", thumbnail: "https://img.youtube.com/vi/ey5ZaDH5uU8/hqdefault.jpg" },
+  { id: 9, type: 'image', src: "https://i.imgur.com/qbLKf3y.jpg", alt: "Students working on laptops in a computer lab", category: "Education" },
+  { id: 10, type: 'image', src: "https://i.imgur.com/8b0rPJ0.jpg", alt: "A woman displaying handcrafted goods", category: "Empowerment" },
+  { id: 11, type: 'video', src: "https://www.youtube.com/embed/l4v6KnTzZds", alt: "Video description here", category: "Community", thumbnail: "https://img.youtube.com/vi/l4v6KnTzZds/hqdefault.jpg" },
+  { id: 12, type: 'image', src: "https://i.imgur.com/1firRzk.jpg", alt: "A community garden full of fresh vegetables", category: "Environment" },
+  { id: 13, type: 'image', src: "https://i.imgur.com/9sxXFJN.jpg", alt: "Young girls in a sisterhood circle", category: "Empowerment" },
+  { id: 14, type: 'video', src: "https://www.youtube.com/embed/hMgDviJK4gc", alt: "A performing arts group in colorful costumes", category: "Arts & Culture", thumbnail: "https://img.youtube.com/vi/hMgDviJK4gc/hqdefault.jpg" },
+  { id: 15, type: 'image', src: "https://i.imgur.com/YXpHEui.jpg", alt: "Description of the image here", category: "Wellbeing" },
+  { id: 16, type: 'image', src: "https://i.imgur.com/5jLsQni.jpg", alt: "Description of the image here", category: "Education" },
+  { id: 17, type: 'video', src: "https://www.youtube.com/embed/_X5uyFBcgfE", alt: "O Come, All Ye Faithful – The Dzikwa Trust Choir", category: "Arts & Culture", thumbnail: "https://img.youtube.com/vi/_X5uyFBcgfE/hqdefault.jpg" },
+  { id: 18, type: 'video', src: "https://www.youtube.com/embed/psBQz4rK38o", alt: "Volunteering in Dzikwa – Experiences and Insights", category: "Community", thumbnail: "https://img.youtube.com/vi/psBQz4rK38o/hqdefault.jpg" },
+
 ];
 
 const categories = ["All", "Education", "Environment", "Empowerment", "Sports", "Wellbeing", "Arts & Culture"];
