@@ -49,6 +49,22 @@ export const newsData = [
   },
   {
     id: 4,
+    slug: 'new-ict-center-launch',
+    title: 'New ICT Center Opens Doors to Digital Literacy',
+    category: 'Latest News',
+    date: '2025-08-10',
+    author: 'James Chikwanha',
+    featuredImage: 'Modern ICT center with students on computers',
+    summary: 'We are thrilled to announce the launch of our new Information and Communication Technology (ICT) center, equipped with 20 new computers.',
+    content: [
+      { type: 'video', src: 'https://www.youtube.com/embed/dQw4w9WgXcQ', title: 'Dzikwa Trust Sports Gala Highlights' },
+      { type: 'paragraph', text: 'We extend our heartfelt thanks to all the volunteers, sponsors, and participants who made this day possible. Your support helps us continue to foster a healthy, active, and united community.' },
+      { type: 'paragraph', text: 'In our ongoing commitment to providing quality education and skills for the future, Dzikwa Trust officially opened its new ICT Center on August 10, 2025. This state-of-the-art facility will provide crucial digital literacy skills to hundreds of students and community members.' },
+      { type: 'paragraph', text: 'The center is equipped with 20 modern desktop computers, high-speed internet access, and a dedicated training space. It will host a range of courses, from basic computer skills to advanced ICDL certification programs.' },
+    ],
+  },
+  {
+    id: 5,
     slug: 'reforestation-initiative-plants-5000-trees',
     title: 'Reforestation Initiative Surpasses Goal, Plants 5,000 Trees',
     category: 'Latest News',
