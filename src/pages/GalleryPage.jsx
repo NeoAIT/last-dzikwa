@@ -61,8 +61,9 @@ const GalleryPage = () => {
         <meta property="og:description" content="A visual journey through the work and impact of Dzikwa Trust." />
       </Helmet>
 
-      <section className="relative py-32 bg-gradient-to-r from-primary-custom to-green-600 overflow-hidden">
-        <div className="absolute inset-0 bg-black/30"></div>
+       <section className="relative py-32 bg-cover bg-center"
+      style={{ backgroundImage: "url('https://i.imgur.com/8b0rPJ0.jpg')" }}>
+        <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}

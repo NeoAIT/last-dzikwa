@@ -6,7 +6,7 @@ export const programsData = [
     title: 'Education',
     icon: GraduationCap,
     description: 'Comprehensive educational support from primary to higher education levels.',
-    color: 'bg-blue-500',
+    color: 'bg-primary-custom',
     subPrograms: [
       {
         title: 'Primary Education',
@@ -50,7 +50,7 @@ export const programsData = [
     title: 'Wellbeing',
     icon: Heart,
     description: 'Holistic health and social development programs for community wellbeing.',
-    color: 'bg-red-500',
+    color: 'bg-primary-custom',
     subPrograms: [
       {
         title: 'Nutrition',
@@ -80,7 +80,7 @@ export const programsData = [
     title: 'Sports',
     icon: Medal,
     description: 'Promoting teamwork, fitness, and healthy competition.',
-    color: 'bg-orange-500',
+    color: 'bg-primary-custom',
     subPrograms: [
       {
         title: 'Ballgames & Athletics',
@@ -96,7 +96,7 @@ export const programsData = [
     title: 'Arts & Culture',
     icon: Paintbrush,
     description: 'Nurturing talent and creativity through cultural activities.',
-    color: 'bg-yellow-500',
+    color: 'bg-primary-custom',
     subPrograms: [
       {
         title: 'Performing Arts',
@@ -112,7 +112,7 @@ export const programsData = [
     title: 'Sisterhood Program',
     icon: Handshake,
     description: 'Empowering girls and young women through mentorship and life skills.',
-    color: 'bg-pink-500',
+    color: 'bg-primary-custom',
     subPrograms: [
       {
         title: 'Girls\' Empowerment & Mentoring',
@@ -128,7 +128,7 @@ export const programsData = [
     title: 'Edu4Talent',
     icon: Users,
     description: 'Career development and entrepreneurship programs to unlock individual potential.',
-    color: 'bg-purple-500',
+    color: 'bg-primary-custom',
     subPrograms: [
       {
         title: 'Career Guidance & Mentoring',
@@ -158,7 +158,7 @@ export const programsData = [
     title: 'Reforestation & Food Security',
     icon: TreePine,
     description: 'Environmental conservation and sustainable agriculture initiatives.',
-    color: 'bg-green-500',
+    color: 'bg-primary-custom',
     subPrograms: [
       {
         title: 'Nursery & Reforestation',

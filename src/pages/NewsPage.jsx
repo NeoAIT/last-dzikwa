@@ -28,8 +28,9 @@ const NewsPage = () => {
         <meta property="og:description" content="Stay up-to-date with the latest news, events, and newsletters from Dzikwa Trust. Discover our impact and stories from the community." />
       </Helmet>
 
-      <section className="relative py-32 bg-gradient-to-r from-primary-custom to-teal-600 overflow-hidden">
-        <div className="absolute inset-0 bg-black/20"></div>
+       <section className="relative py-32 bg-cover bg-center"
+      style={{ backgroundImage: "url('https://i.imgur.com/YXpHEui.jpg')" }}>
+        <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}

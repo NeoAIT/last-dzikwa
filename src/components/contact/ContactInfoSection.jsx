@@ -8,25 +8,25 @@ const ContactInfoSection = () => {
       icon: MapPin,
       title: 'Our Location',
       details: ['Dzikwa Centre', '3147 Rujeko St', 'Dzivarasekwa 1, Harare'],
-      color: 'text-blue-600'
+      color: 'bg-primary-custom text-white'
     },
     {
       icon: Phone,
       title: 'Phone Numbers',
       details: ['Tel: +263 242 217460','Tel: +263 242 216183','WhatsApp: +263 772 403485 or +358 40 5922543','WhatsApp: +263 772 516598 or +263 777 31 6765'],
-      color: 'text-green-600'
+      color: 'bg-primary-custom text-white'
     },
     {
       icon: Mail,
       title: 'Email Addresses',
       details: ['dzikwatrust@africaonline.co.zw', 'accounts@dzikwatrust.org', 'education@dzikwatrust.org', 'ict@dzikwatrust.org'],
-      color: 'text-purple-600'
+      color: 'bg-primary-custom text-white'
     },
     {
       icon: Clock,
       title: 'Office Hours',
       details: ['Monday - Friday: 9:00 AM - 5:00 PM', 'Saturday: 9:00 AM - 2:00 PM', 'Sunday: Closed'],
-      color: 'text-orange-600'
+      color: 'bg-primary-custom text-white'
     }
   ];
 

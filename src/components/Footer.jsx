@@ -88,15 +88,15 @@ const Footer = () => {
             <span className="text-lg font-semibold">Contact Info</span>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <MapPin className="w-4 h-4 text-primary-custom flex-shrink-0" />
+                <MapPin className="w-4 h-4 text-white flex-shrink-0" />
                 <span className="text-gray-300 text-sm">Harare, Zimbabwe</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="w-4 h-4 text-primary-custom flex-shrink-0" />
+                <Phone className="w-4 h-4 text-white flex-shrink-0" />
                 <span className="text-gray-300 text-sm">+263 123 456 789</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="w-4 h-4 text-primary-custom flex-shrink-0" />
+                <Mail className="w-4 h-4 text-white flex-shrink-0" />
                 <span className="text-gray-300 text-sm">info@dzikwatrust.org</span>
               </div>
             </div>

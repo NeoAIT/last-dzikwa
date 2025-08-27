@@ -89,8 +89,9 @@ const partners = [
         <meta property="og:description" content="Learn about Dzikwa Trust's 15-year journey empowering communities in Zimbabwe. Meet our team, discover our mission, and see how we're creating lasting change." />
       </Helmet>
 
-      <section className="relative py-32 bg-gradient-to-r from-primary-custom to-blue-600 overflow-hidden">
-        <div className="absolute inset-0 bg-black/20"></div>
+      <section className="relative py-32 bg-cover bg-center"
+      style={{ backgroundImage: "url('https://i.imgur.com/8b0rPJ0.jpg')" }}>
+        <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -201,7 +202,7 @@ const partners = [
                   className="relative"
                 >
                   <div className="absolute -left-8 top-0 h-full w-px md:hidden"></div>
-                  <div className="md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 w-4 h-4 bg-primary-custom rounded-[10px] border-4 border-light-custom shadow-lg z-10"></div>
+                  <div className="md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 "></div>
                   
                   <div className="bg-white rounded-[10px] p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                     <div className="flex items-center mb-3">
@@ -259,45 +260,51 @@ const partners = [
         </div>
       </section>
 
-      <section className="py-20 bg-light-custom">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-dark-custom mb-4">
-              Our Partners
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Working together with organizations and institutions to maximize our impact.
-            </p>
-          </motion.div>
+<section
+  className="relative py-20 bg-cover bg-center"
+  style={{ backgroundImage: "url('https://i.imgur.com/EQ1bUtD.jpg')" }}
+>
+  {/* Overlay to darken background for better readability */}
+  <div className="absolute inset-0 bg-black/40"></div>
 
-<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-  {partners.map((partner, index) => (
+  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <motion.div
-      key={index}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, delay: index * 0.1 }}
-      className="bg-white rounded-[10px] p-6 text-center shadow-md card-hover"
+      transition={{ duration: 0.6 }}
+      className="text-center mb-16 text-white"
     >
-      <div className="w-20 h-20 flex items-center justify-center mx-auto mb-4">
-        <img
-          src={partner.logo}
-          alt={partner.name}
-          className="max-h-16 object-contain"
-        />
-      </div>
-      <p className="text-sm font-semibold text-dark-custom">{partner.name}</p>
+      <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        Our Partners
+      </h2>
+      <p className="text-xl max-w-3xl mx-auto">
+        Working together with organizations and institutions to maximize our impact.
+      </p>
     </motion.div>
-  ))}
-</div>
 
-        </div>
-      </section>
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+      {partners.map((partner, index) => (
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: index * 0.1 }}
+          className="bg-white/90 rounded-xl p-4 text-center shadow-lg hover:shadow-xl transition"
+        >
+          <div className="w-16 h-16 flex items-center justify-center mx-auto mb-3">
+            <img
+              src={partner.logo}
+              alt={partner.name}
+              className="max-h-12 object-contain"
+            />
+          </div>
+          <p className="text-xs font-semibold text-dark-custom">{partner.name}</p>
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

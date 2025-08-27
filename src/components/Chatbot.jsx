@@ -54,7 +54,7 @@ const Chatbot = () => {
         <Button
           onClick={handleToggle}
           size="icon"
-          className="rounded-full w-14 h-14 bg-primary-custom hover:bg-primary-hover shadow-lg"
+          className="rounded-full w-14 h-14 bg-primary-custom text-white hover:bg-primary-hover shadow-lg"
         >
           {isOpen ? <X className="w-6 h-6" /> : <MessageSquare className="w-6 h-6" />}
         </Button>

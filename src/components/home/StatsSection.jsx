@@ -12,7 +12,7 @@ const StatsSection = () => {
 
   // Animate counters
   useEffect(() => {
-    const targets = { children: 1250, years: 30, nutrition: 1861663, trees: 136000 };
+    const targets = { children: 1250, years: 30, nutrition: 1, trees: 136 };
     const duration = 2000;
     const steps = 60;
     const stepTime = duration / steps;
@@ -71,7 +71,7 @@ const StatsSection = () => {
             className="text-center"
           >
             <div className="text-4xl md:text-5xl font-bold text-primary-custom stats-counter mb-2">
-              {stats.nutrition}+
+              {stats.nutrition}M+
             </div>
             <p className="text-gray-600 font-medium">Nutrition Provided</p>
           </motion.div>
@@ -83,7 +83,7 @@ const StatsSection = () => {
             className="text-center"
           >
             <div className="text-4xl md:text-5xl font-bold text-primary-custom stats-counter mb-2">
-              {stats.trees}+
+              {stats.trees}K+
             </div>
             <p className="text-gray-600 font-medium">Trees Planted</p>
           </motion.div>

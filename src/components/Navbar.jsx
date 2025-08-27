@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-22">
           <Link to="/" className="flex items-center space-x-2">
-            <img  className="h-20 w-auto" alt="Dzikwa Trust Logo" src="https://i.imgur.com/8shKFyA.jpg" />
+            <img  className="h-16 w-auto" alt="Dzikwa Trust Logo" src="https://i.imgur.com/8shKFyA.jpg" />
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -47,7 +47,7 @@ const Navbar = () => {
                     ? 'text-primary-custom'
                     : !isHomePage || isScrolled
                     ? 'text-gray-700 hover:text-primary-custom'
-                    : 'text-white hover:text-gray-200'
+                    : 'text-black hover:text-gray-200'
                 }`}
               >
                 {item.name}

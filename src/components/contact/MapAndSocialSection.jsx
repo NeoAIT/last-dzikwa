@@ -55,10 +55,10 @@ const MapAndSocialSection = () => {
     href="https://www.facebook.com/dzikwatrustfund"
     target="_blank"
     rel="noopener noreferrer"
-    className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-200 transition-colors"
+    className="w-12 h-12 bg-primary-custom rounded-full flex items-center justify-center cursor-pointer hover:bg-white transition-colors"
     aria-label="Visit our Facebook page"
   >
-    <Facebook className="w-6 h-6 text-blue-600" />
+    <Facebook className="w-6 h-6 text-white hover:text-black" />
   </a>
   {/* <a
     href="https://www.twitter.com/yourpage"
@@ -73,19 +73,19 @@ const MapAndSocialSection = () => {
     href="https://www.instagram.com/dzikwa_trust_fund"
     target="_blank"
     rel="noopener noreferrer"
-    className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center cursor-pointer hover:bg-pink-200 transition-colors"
+    className="w-12 h-12 bg-primary-custom rounded-full flex items-center justify-center cursor-pointer hover:bg-white transition-colors"
     aria-label="Visit our Instagram page"
   >
-    <Instagram className="w-6 h-6 text-pink-600" />
+    <Instagram className="w-6 h-6 text-white hover:text-black" />
   </a>
   <a
     href="https://www.linkedin.com/company/102135222/admin/dashboard"
     target="_blank"
     rel="noopener noreferrer"
-    className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-200 transition-colors"
+    className="w-12 h-12 bg-primary-custom rounded-full flex items-center justify-center cursor-pointer hover:bg-white transition-colors"
     aria-label="Visit our LinkedIn page"
   >
-    <Linkedin className="w-6 h-6 text-blue-600" />
+    <Linkedin className="w-6 h-6 text-white hover:text-black" />
   </a>
 </div>
       </div>

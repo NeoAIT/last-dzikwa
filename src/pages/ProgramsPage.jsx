@@ -73,27 +73,32 @@ const ProgramsPage = () => {
         <meta property="og:description" content="Explore Dzikwa Trust's comprehensive programs in education, wellbeing, talent development, and environmental conservation. Making a difference across Zimbabwe." />
       </Helmet>
 
-      <section className="relative py-32 bg-gradient-to-r from-primary-custom to-green-600 overflow-hidden">
-        <div className="absolute inset-0 bg-black/20"></div>
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-4xl md:text-6xl font-bold mb-6"
-          >
-            Our Programs
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl max-w-3xl mx-auto"
-          >
-            Comprehensive initiatives designed to empower communities and create lasting positive change across Zimbabwe.
-          </motion.p>
-        </div>
-      </section>
+ <section className="relative py-32 bg-cover bg-center"
+      style={{ backgroundImage: "url('https://i.imgur.com/g0StyLZ.jpg')" }}>
+        <div className="absolute inset-0 bg-black/40"></div>
+
+  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+      <motion.h1
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="text-4xl md:text-6xl font-bold mb-6 text-white"
+      >
+        Our Programs
+      </motion.h1>
+      <motion.p
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+        className="text-xl md:text-2xl max-w-3xl mx-auto text-white"
+      >
+        Comprehensive initiatives designed to empower communities and create lasting positive change across Zimbabwe.
+      </motion.p>
+    </div>
+  </div>
+</section>
+
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -140,8 +145,8 @@ const ProgramsPage = () => {
               transition={{ duration: 0.6 }}
               className="bg-white rounded-xl p-8 text-center shadow-lg"
             >
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <GraduationCap className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-primary-custom rounded-full flex items-center justify-center mx-auto mb-4">
+                <GraduationCap className="w-8 h-8 text-white" />
               </div>
               <div className="text-3xl font-bold text-dark-custom mb-2">6000+</div>
               <p className="text-gray-600">Students Supported</p>
@@ -153,8 +158,8 @@ const ProgramsPage = () => {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="bg-white rounded-xl p-8 text-center shadow-lg"
             >
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Heart className="w-8 h-8 text-red-600" />
+              <div className="w-16 h-16 bg-primary-custom rounded-full flex items-center justify-center mx-auto mb-4">
+                <Heart className="w-8 h-8 text-white" />
               </div>
               <div className="text-3xl font-bold text-dark-custom mb-2">95%</div>
               <p className="text-gray-600">Pass rate</p>
@@ -166,8 +171,8 @@ const ProgramsPage = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="bg-white rounded-xl p-8 text-center shadow-lg"
             >
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-purple-600" />
+              <div className="w-16 h-16 bg-primary-custom rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="w-8 h-8 text-white" />
               </div>
               <div className="text-3xl font-bold text-dark-custom mb-2">10+</div>
               <p className="text-gray-600">Schools Partnered</p>
@@ -179,8 +184,8 @@ const ProgramsPage = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="bg-white rounded-xl p-8 text-center shadow-lg"
             >
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <TreePine className="w-8 h-8 text-green-600" />
+              <div className="w-16 h-16 bg-primary-custom rounded-full flex items-center justify-center mx-auto mb-4">
+                <TreePine className="w-8 h-8 text-white" />
               </div>
               <div className="text-3xl font-bold text-dark-custom mb-2">175+</div>
               <p className="text-gray-600">Graduates</p>
