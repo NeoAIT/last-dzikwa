@@ -89,20 +89,19 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-white flex-shrink-0" />
-                <span className="text-gray-300 text-sm">Harare, Zimbabwe</span>
+                <span className="text-gray-300 text-sm">'Dzikwa Centre', '3147 Rujeko St', 'Dzivarasekwa 1, Harare'</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-white flex-shrink-0" />
-                <span className="text-gray-300 text-sm">+263 123 456 789</span>
+                <span className="text-gray-300 text-sm">+263 242 217460</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-white flex-shrink-0" />
-                <span className="text-gray-300 text-sm">info@dzikwatrust.org</span>
+                <span className="text-gray-300 text-sm">dzikwatrust@africaonline.co.zw</span>
               </div>
             </div>
           </div>
         </div>
-
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
             © 2025 Dzikwa Trust. All rights reserved. | Registered Charity Organization
