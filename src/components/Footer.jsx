@@ -14,12 +14,40 @@ const Footer = () => {
             <p className="text-gray-300 text-sm leading-relaxed">
               Empowering communities through education, wellbeing programs, and sustainable development initiatives.
             </p>
-            <div className="flex space-x-4">
-              <Facebook className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
-              <Twitter className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
-              <Instagram className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
-              <Linkedin className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
-            </div>
+<div className="flex space-x-4">
+  <a 
+    href="https://www.facebook.com/dzikwatrustfund" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <Facebook className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
+  </a>
+
+    {/* <a 
+      href="https://twitter.com/YourPage" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      <Twitter className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
+    </a> */}
+
+  <a 
+    href="https://www.instagram.com/dzikwa_trust_fund" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <Instagram className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
+  </a>
+
+  <a 
+    href="https://www.linkedin.com/company/102135222/admin/dashboard" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <Linkedin className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
+  </a>
+</div>
+
           </div>
 
           <div className="space-y-4">
