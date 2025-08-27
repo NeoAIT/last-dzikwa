@@ -31,14 +31,14 @@ const MapAndSocialSection = () => {
             <MapPin className="w-5 h-5 text-primary-custom mt-1 flex-shrink-0" />
             <div>
               <p className="font-semibold text-dark-custom">Dzikwa Trust Office</p>
-              <p className="text-gray-600 text-sm">3147 Rujeko St, Harare, Zimbabwe</p>
+              <p className="text-gray-600 text-sm">3147 Rujeko St, Dzivarasekwa 1, Harare, Zimbabwe</p>
             </div>
           </div>
           <div className="flex items-start space-x-3">
             <Clock className="w-5 h-5 text-primary-custom mt-1 flex-shrink-0" />
             <div>
               <p className="font-semibold text-dark-custom">Office Hours</p>
-              <p className="text-gray-600 text-sm">Monday - Friday: 8:00 AM - 5:00 PM</p>
+              <p className="text-gray-600 text-sm">Monday - Friday: 9:00 AM - 5:00 PM</p>
             </div>
           </div>
         </div>

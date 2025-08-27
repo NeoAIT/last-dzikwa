@@ -7,25 +7,25 @@ const ContactInfoSection = () => {
     {
       icon: MapPin,
       title: 'Our Location',
-      details: ['Rujeko St Dzivarasekwa', 'Harare, Zimbabwe', 'P.O. Box 3147'],
+      details: ['Dzikwa Centre', '3147 Rujeko St', 'Dzivarasekwa 1, Harare'],
       color: 'text-blue-600'
     },
     {
       icon: Phone,
       title: 'Phone Numbers',
-      details: ['+263 24 2217455', 'WhatsApp: +263 772 409519'],
+      details: ['Tel: +263 242 217460','Tel: +263 242 216183','WhatsApp: +263 772 403485 or +358 40 5922543','WhatsApp: +263 772 516598 or +263 777 31 6765'],
       color: 'text-green-600'
     },
     {
       icon: Mail,
       title: 'Email Addresses',
-      details: ['dzikwatrust@africaonline.co.zw', 'education@dzikwatrust.org', 'ict@dzikwatrust.org'],
+      details: ['dzikwatrust@africaonline.co.zw', 'accounts@dzikwatrust.org', 'education@dzikwatrust.org', 'ict@dzikwatrust.org'],
       color: 'text-purple-600'
     },
     {
       icon: Clock,
       title: 'Office Hours',
-      details: ['Monday - Friday: 8:00 AM - 5:00 PM', 'Saturday: 9:00 AM - 4:00 PM', 'Sunday: Closed'],
+      details: ['Monday - Friday: 9:00 AM - 5:00 PM', 'Saturday: 9:00 AM - 2:00 PM', 'Sunday: Closed'],
       color: 'text-orange-600'
     }
   ];

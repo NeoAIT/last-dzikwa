@@ -5,11 +5,11 @@ import { Mail, Phone } from 'lucide-react';
 const StaffContactsSection = () => {
   const staffContacts = [
     {
-      name: 'Seppo Ainamo',
-      position: 'Founder',
-      email: 'dzikwatrust@africaonline.co.zw',
-      phone: '+263 772 210855 or +358 40 7211405',
-      image: 'https://i.imgur.com/Fn18n8O.jpg'
+      name: 'Tarisai Mafuratidze',
+      position: 'Finance Officer',
+      email: 'accounts@dzikwatrust.org',
+      phone: '+263 242 217460 or +263 777 31 6765',
+      image: 'https://i.imgur.com/BHPuQWQ.jpg'
     },
     {
       name: 'Oili Wuolle',
@@ -20,7 +20,7 @@ const StaffContactsSection = () => {
     },
     {
       name: 'Priscilla Takawira',
-      position: 'Dzikwa Trust Manager',
+      position: 'Center Manager',
       email: 'dzikwatrust@africaonline.co.zw',
       phone: '+263 242 217455 or +263 772 40 9519',
       image: 'https://i.imgur.com/6guZW72.jpg'

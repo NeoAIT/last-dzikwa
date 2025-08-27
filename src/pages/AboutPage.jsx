@@ -60,18 +60,25 @@ const AboutPage = () => {
       name: "Levita Chenera",
       position: "Education Liaison Officer",
       bio: "Dzikwa connects us with families and local stakeholders.",
-      image: "https://i.imgur.com/1odFRL4.jpg"
+      image: "https://i.imgur.com/wBhr8dn.jpg"
     },
   ];
 
-  const partners = [
-    "UNICEF Zimbabwe",
-    "World Vision",
-    "Save the Children",
-    "Ministry of Education",
-    "Local Government",
-    "Community Leaders"
-  ];
+const partners = [
+  { name: "BUSE", logo: "/public/images/BUSE-logo.webp" },
+  { name: "Children-of-Zimbabwe", logo: "/public/images/Children-of-Zimbabwe.webp" },
+  { name: "CHINA-1-300x39", logo: "/public/images/CHINA-1-300x39.png.webp" },
+  { name: "CSZ", logo: "/public/images/CSZ.jpeg.webp" },
+  { name: "Harare-International-School", logo: "/public/images/Harare-International-School.webp" },
+  { name: "Italian-Embassy", logo: "/public/images/Italian-Embassy-.webp" },
+  { name: "Japanese-Embassy", logo: "/public/images/Japan.webp" },
+  { name: "Kisspng-australian-aid", logo: "/public/images/kisspng-australian-aid-logo.webp" },
+  { name: "Kisspng-australian", logo: "/public/images/kisspng-australian.webp" },
+  { name: "UNDP-GEF-SGP", logo: "/public/images/UNDP-GEF-SGP.webp" },
+  { name: "UNICEF", logo: "/public/images/unicef-300x200.webp" },
+  { name: "USA-Embassy-Harare", logo: "/public/images/USA-Embassy-Harare-1.webp" },
+];
+
 
   return (
     <>
@@ -268,22 +275,27 @@ const AboutPage = () => {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-            {partners.map((partner, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-[10px] p-6 text-center shadow-md card-hover"
-              >
-                <div className="w-16 h-16 bg-primary-custom/10 rounded-[10px] flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-8 h-8 text-primary-custom" />
-                </div>
-                <p className="text-sm font-semibold text-dark-custom">{partner}</p>
-              </motion.div>
-            ))}
-          </div>
+<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+  {partners.map((partner, index) => (
+    <motion.div
+      key={index}
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, delay: index * 0.1 }}
+      className="bg-white rounded-[10px] p-6 text-center shadow-md card-hover"
+    >
+      <div className="w-20 h-20 flex items-center justify-center mx-auto mb-4">
+        <img
+          src={partner.logo}
+          alt={partner.name}
+          className="max-h-16 object-contain"
+        />
+      </div>
+      <p className="text-sm font-semibold text-dark-custom">{partner.name}</p>
+    </motion.div>
+  ))}
+</div>
+
         </div>
       </section>
 
